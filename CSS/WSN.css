@@ -1,0 +1,32 @@
+#Q1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+
+#Q1_title{
+    user-select: none;
+    top: 0px;
+    height: auto; 
+    width: 500px; 
+}
+
+#Q2_title{
+    user-select: none;
+    height: 20px;
+    width: 500px; 
+}
+
+#Q3_title{
+    user-select: none;
+    height: 20px;
+    width: 500px; 
+}
+
+#key{
+    position: absolute;
+    top: 501px;
+
+}
