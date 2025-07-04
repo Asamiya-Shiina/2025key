@@ -1,5 +1,19 @@
 var zero = document.createTextNode("暂无答案")
 
+var q = document.getElementById("title")
+q.addEventListener("click",function(){
+    let r_img = document.getElementById("img")
+    r_img.remove()
+    let div = document.createElement("div")
+    key.appendChild(div)
+    let id = document.createAttribute("id")
+    id.value = "img"
+    div.setAttributeNode(id)
+    let img = document.getElementById("img")
+    let t = document.createTextNode("点问题不是点我，kora！！！")
+    img.appendChild(t)
+})
+
 //答案于此显现！！！！！！！！！！！！！
 var q1 = document.getElementById("Q1_title")
 q1.addEventListener("click",function(){
