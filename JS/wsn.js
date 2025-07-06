@@ -31,16 +31,16 @@ q1.addEventListener("click",function(){
     //img标签放入img
     let img1 = document.createElement("img")
     img1.src = "../image/key1_1.png" 
-    let img2 = document.createElement("img")
-    img2.src = "../image/key1_2.png" 
-    let img3 = document.createElement("img")
-    img3.src = "../image/key1_3.png" 
-    let img4 = document.createElement("img")
-    img4.src = "../image/key1_4.png" 
+    // let img2 = document.createElement("img")
+    // img2.src = "../image/key1_2.png" 
+    // let img3 = document.createElement("img")
+    // img3.src = "../image/key1_3.png" 
+    // let img4 = document.createElement("img")
+    // img4.src = "../image/key1_4.png" 
     img.appendChild(img1)
-    img.appendChild(img2)
-    img.appendChild(img3)
-    img.appendChild(img4)
+    // img.appendChild(img2)
+    // img.appendChild(img3)
+    // img.appendChild(img4)
 })
 
 var q2 = document.getElementById("Q2_title")
@@ -120,17 +120,8 @@ q5.addEventListener("click",function(){
     div.setAttributeNode(id)
     let img = document.getElementById("img")
     let img1 = document.createElement("img")
-    img1.src = "../image/key5_1.png" 
-    let img2 = document.createElement("img")
-    img2.src = "../image/key5_2.png" 
-    let img3 = document.createElement("img")
-    img3.src = "../image/key5_3.png" 
-    let img4 = document.createElement("img")
-    img4.src = "../image/key5_4.png" 
+    img1.src = "../image/key5.png" 
     img.appendChild(img1)
-    img.appendChild(img2)
-    img.appendChild(img3)
-    img.appendChild(img4)
 })
 
 var q6 = document.getElementById("Q6_title")
@@ -158,10 +149,10 @@ q7.addEventListener("click",function(){
     id.value = "img"
     div.setAttributeNode(id)
     let img = document.getElementById("img")
-    img.appendChild(zero)
-    // let img1 = document.createElement("img")
-    // img1.src = "../image/key6.png"  //输入图片地址
-    // img.appendChild(img1)
+    // img.appendChild(zero)
+    let img1 = document.createElement("img")
+    img1.src = "../image/key7.png"  //输入图片地址
+    img.appendChild(img1)
 })
 
 var q8 = document.getElementById("Q8_title")
@@ -174,10 +165,16 @@ q8.addEventListener("click",function(){
     id.value = "img"
     div.setAttributeNode(id)
     let img = document.getElementById("img")
-    img.appendChild(zero)
-    // let img1 = document.createElement("img")
-    // img1.src = "../image/key6.png"  //输入图片地址
-    // img.appendChild(img1)
+    // img.appendChild(zero)
+    let img1 = document.createElement("img")
+    img1.src = "../image/key8_1.png" 
+    let img2 = document.createElement("img")
+    img2.src = "../image/key8_2.png" 
+    let img3 = document.createElement("img")
+    img3.src = "../image/key8_3.png" 
+    img.appendChild(img1)
+    img.appendChild(img2)
+    img.appendChild(img3)
 })
 
 var q9 = document.getElementById("Q9_title")
@@ -237,31 +234,15 @@ q12.addEventListener("click",function(){
     let id = document.createAttribute("id")
     id.value = "img"
     div.setAttributeNode(id)
-    let img = document.getElementById("img")
-    img.appendChild(zero)
-    // let img1 = document.createElement("img")
-    // img1.src = "../image/key6.png"  //输入图片地址
-    // img.appendChild(img1)
+    let img1 = document.createElement("img")
+    img1.src = "../image/key12.png"  //输入图片地址
+    div.appendChild(img1)   
 })
+
+
 
 var q13 = document.getElementById("Q13_title")
 q13.addEventListener("click",function(){
-    let r_img = document.getElementById("img")
-    r_img.remove()
-    let div = document.createElement("div")
-    key.appendChild(div)
-    let id = document.createAttribute("id")
-    id.value = "img"
-    div.setAttributeNode(id)
-    let img = document.getElementById("img")
-    img.appendChild(zero)
-    // let img1 = document.createElement("img")
-    // img1.src = "../image/key6.png"  //输入图片地址
-    // img.appendChild(img1)
-})
-
-var q14 = document.getElementById("Q14_title")
-q14.addEventListener("click",function(){
     let r_img = document.getElementById("img")
     r_img.remove()
     let div = document.createElement("div")
